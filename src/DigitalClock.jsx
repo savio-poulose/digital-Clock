@@ -2,12 +2,12 @@ import React,{useEffect,useState} from "react";
 
 function DigitalClock(){
 
-    const[time, setTime] = useState(new Date().toLocaleTimeString());
+    const[time, setTime] = useState(new Date().toLocaleTimeString("en-GB", { hour12: false }));
     // console.log(time)
 
-    useEffect(() =>{
+    useEffect(() =>{    
         const interval = setInterval(()=>{
-            setTime(new Date().toLocaleTimeString())
+            setTime(new Date().toLocaleTimeString("en-GB", { hour12: false }))
         },1000)
 
         return () => clearInterval(interval);
