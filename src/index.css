@@ -1,0 +1,65 @@
+body {
+  background-image: url("./assets/blackBackground.jpg");
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  display: flex;
+  height: 96vh;
+  width: 96vw;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.clock-container {
+  color: green;
+  height: 35vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: wheat; */
+
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.066);
+  /* transparent */
+  backdrop-filter: blur(3px);
+  /* frosted blur */
+  -webkit-backdrop-filter: blur(12px);
+  /* Safari fix */
+  border: 1px solid rgba(255, 255, 255, 0.145);
+
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.clock {
+
+  /* background-color: rgba(0, 255, 0, 0.316); */
+  height: 25vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+
+
+  color: #00ff00;
+  /* neon green */
+  font-family: "Courier New", monospace;
+  /* hacker terminal font */
+  text-align: center;
+
+  /* Glow effect */
+  text-shadow:
+    0 0 5px #00ff00,
+    0 0 10px #00ff00,
+    0 0 20px #00ff00,
+    0 0 40px #00ff00;
+}
+
+  
